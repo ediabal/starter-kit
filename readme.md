@@ -5,6 +5,30 @@
 This is a starter project for building a standalone Web Component using Stencil.
 
 
+# The Challenge
+
+We'd like to challenge you to create a toggle component based on the provided design...
+
+![toggle](https://assets.digitalocean.com/articles/how-to-build-a-custom-toggle-switch-with-react/1.png)
+
+## Requirements
+
+- The component must support the ability to be enabled and disabled.
+- The component must be visually styled to show its enabled and disabled states.
+- An event must be emitted when the component changes.
+- The component must be rendered in the `index.html` sample.
+
+### Bonus (not required)
+
+- Implement the checkbox component displayed in the design.
+
+
+
+
+## Additional Stencil information below...
+
+---
+
 # Stencil
 
 Stencil is a compiler for building fast web apps using Web Components.
