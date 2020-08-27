@@ -13,6 +13,7 @@ We'd like to challenge you to create a toggle component based on the provided de
 
 ## Requirements
 
+- You must fork this repository and supply a link to that fork.
 - The component must support the ability to be enabled and disabled.
 - The component must be visually styled to show its enabled and disabled states.
 - An event must be emitted when the component changes.
@@ -21,8 +22,6 @@ We'd like to challenge you to create a toggle component based on the provided de
 ### Bonus (not required)
 
 - Implement the checkbox component displayed in the design.
-
-
 
 
 ## Additional Stencil information below...
@@ -73,26 +72,3 @@ Need help? Check out our docs [here](https://stenciljs.com/docs/my-first-compone
 When creating new component tags, we recommend _not_ using `stencil` in the component name (ex: `<stencil-datepicker>`). This is because the generated component has little to nothing to do with Stencil; it's just a web component!
 
 Instead, use a prefix that fits your company or any name for a group of related components. For example, all of the Ionic generated web components use the prefix `ion`.
-
-## Using this component
-
-There are three strategies we recommend for using web components built with Stencil.
-
-The first step for all three of these strategies is to [publish to NPM](https://docs.npmjs.com/getting-started/publishing-npm-packages).
-
-### Script tag
-
-- Put a script tag similar to this `<script src='https://unpkg.com/my-component@0.0.1/dist/mycomponent.js'></script>` in the head of your index.html
-- Then you can use the element anywhere in your template, JSX, html etc
-
-### Node Modules
-
-- Run `yarn add my-component`
-- Put a script tag similar to this `<script src='node_modules/my-component/dist/mycomponent.js'></script>` in the head of your index.html
-- Then you can use the element anywhere in your template, JSX, html etc
-
-### In a stencil-starter app
-
-- Run `yarn add my-component`
-- Add an import to the npm packages `import my-component;`
-- Then you can use the element anywhere in your template, JSX, html etc
