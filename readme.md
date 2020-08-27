@@ -24,6 +24,9 @@ We'd like to challenge you to create a toggle component based on the provided de
 - Implement the checkbox component displayed in the design.
 
 
+_Please feel free to reach out if there are any questions about the design or requirements._
+
+
 ## Additional Stencil information below...
 
 ---
